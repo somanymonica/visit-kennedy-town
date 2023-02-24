@@ -4,11 +4,9 @@ import { Navbar } from "./components";
 import "./App.css";
 
 const App = () => (
-  <div>
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
+  <div className="gradient__bg">
+    <Navbar />
+    <Header />
     <Intro />
     <Restaurants />
     <Scenes />
