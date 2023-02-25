@@ -22,7 +22,7 @@ const Restaurants = () => {
   };
 
   return (
-    <div className="restaurants flex__center">
+    <div className="restaurants flex__center" id="restaurants">
       <div className="restaurants-info">
         <h1>somewhere I think you should go</h1>
         <p>
@@ -30,7 +30,15 @@ const Restaurants = () => {
           <br />
           These are all good things for me.
         </p>
-        <button>Explore More</button>
+        <button>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore More
+          </a>
+        </button>
       </div>
       <div className="restaurants-images">
         <div className="restaurants-images_container" ref={scrollRef}>

@@ -13,7 +13,7 @@ const RecommandCard = ({ imgUrl, title, desc }) => (
 );
 
 const Scenes = () => (
-  <div className="scenes section__padding">
+  <div className="scenes section__padding" id="scenes">
     <div className="scenes-info">
       <h1>Recommand Places</h1>
       <div className="scenes-info-container">

@@ -9,7 +9,7 @@ const Intro = () => {
   const vidRef = React.useRef();
 
   return (
-    <div className="video">
+    <div className="video" id="intro">
       <video
         ref={vidRef}
         src={coastal}

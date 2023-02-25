@@ -3,6 +3,7 @@
 
     background: var(--color-bg);
     padding: 4rem 6rem;
+    min-height: 100vh;
 }
 
 .restaurants-info {

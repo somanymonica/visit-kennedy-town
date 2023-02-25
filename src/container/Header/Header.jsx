@@ -13,7 +13,15 @@ const Header = () => (
         Hong Kong.
         <br />I love Kennedy Town and hope you do too.
       </p>
-      <button>Explore More</button>
+      <button>
+        <a
+          href="https://www.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore More
+        </a>
+      </button>
     </div>
   </div>
 );
