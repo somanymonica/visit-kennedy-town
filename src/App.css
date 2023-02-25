@@ -23,13 +23,6 @@ a {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.gradient__text {
-  background: var(--gradient-text);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .flex__center {
   display: flex;
   justify-content: center;
@@ -47,33 +40,6 @@ a {
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-.app__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  min-height: 100vh;
-}
-
-.app__wrapper_img {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 2rem;
-}
-
-.app__wrapper_info {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
 @-webkit-keyframes scale-up-center {
