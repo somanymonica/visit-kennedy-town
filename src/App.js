@@ -1,4 +1,4 @@
-import { Header, Intro, Restaurants, Scenes } from "./container";
+import { Header, Intro, Restaurants, Scenes, Footer } from "./container";
 import { Navbar } from "./components";
 
 import "./App.css";
@@ -10,6 +10,7 @@ const App = () => (
     <Intro />
     <Restaurants />
     <Scenes />
+    <Footer />
   </div>
 );
 
