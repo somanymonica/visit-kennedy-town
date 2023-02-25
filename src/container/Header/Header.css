@@ -34,7 +34,8 @@
 }
 
 .header-info p {
-    font-family: var(--color-normal);
+    font-family: var(--font-family);
+    color: var(--color-text);
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
