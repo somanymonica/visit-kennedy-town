@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       <div className={styles.navbar_login}>
         <p>
-          <a href="#login">Log in</a>
+          <Link href="#login">Log in</Link>
         </p>
       </div>
 
@@ -45,13 +45,16 @@ const Navbar = () => {
           <div className="{styles.navbar_menu_container} scale-up-center">
             <div className={styles.navbar_menu_container_links}>
               <p>
-                <a href="#home">Home</a>
+                <Link href="/#home">Home</Link>
               </p>
               <p>
-                <a href="#Scenes">Scenes</a>
+                <Link href="/#Scenes">Scenes</Link>
               </p>
               <p>
-                <a href="#Restaurants">Restaurants</a>
+                <Link href="#Restaurants">Restaurants</Link>
+              </p>
+              <p>
+                <Link href="/about">About Me</Link>
               </p>
             </div>
             <div className={styles.navbar_menu_container_links_login}>

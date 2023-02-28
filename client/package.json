@@ -11,12 +11,11 @@
     "next-videos": "1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "yarn": "^1.22.19"
+    "react-icons": "^4.7.1"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start"
   },
   "eslintConfig": {

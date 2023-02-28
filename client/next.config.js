@@ -1,3 +1,4 @@
-const withVideos = require("next-videos");
-
-module.exports = withVideos();
+/** @type {import('next').NextConfig} */
+module.exports = {
+  output: "standalone",
+};
