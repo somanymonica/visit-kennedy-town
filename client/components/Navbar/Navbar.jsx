@@ -1,6 +1,7 @@
 import React from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "./Navbar.module.css";
 import images from "../../constants/images";
@@ -15,16 +16,16 @@ const Navbar = () => {
         </div>
         <div className={styles.navbar_links_container}>
           <p>
-            <a href="#home">Home</a>
+            <Link href="/#home">Home</Link>
           </p>
           <p>
-            <a href="#intro">Introduction</a>
+            <Link href="/#scenes">Scenes</Link>
           </p>
           <p>
-            <a href="#scenes">Scenes</a>
+            <Link href="/#restaurants">Restaurants</Link>
           </p>
           <p>
-            <a href="#restaurants">Restaurants</a>
+            <Link href="/about">About Me</Link>
           </p>
         </div>
       </div>

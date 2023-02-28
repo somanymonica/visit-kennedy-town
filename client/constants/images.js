@@ -12,6 +12,8 @@ import s2 from "../public/s2.jpeg";
 import s3 from "../public/s3.jpeg";
 import s4 from "../public/s4.jpeg";
 
+import avatar from "../public/avatar.png";
+
 export default {
   logo,
   kd,
@@ -24,4 +26,5 @@ export default {
   s2,
   s3,
   s4,
+  avatar,
 };

@@ -1,7 +1,8 @@
 import styles from "./Scenes.module.css";
 import Image from "next/image";
 
-import { data, images } from "../../constants";
+import { images } from "../../constants";
+import { data } from "../../constants";
 
 const RecommandCard = ({ imgUrl, title, desc }) => (
   <div className={styles.recommand_card}>

@@ -1,7 +1,7 @@
 import { Header, Restaurants, Scenes, Footer } from "../container";
 import { Navbar } from "../components";
 
-const App = () => (
+const Home = () => (
   <div className="gradient__bg">
     <Navbar />
     <Header />
@@ -11,4 +11,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default Home;

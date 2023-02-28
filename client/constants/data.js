@@ -23,4 +23,10 @@ const places = [
   },
 ];
 
-export default { places };
+const aboutMe = {
+  avatar: images.avatar,
+  name: "Monica",
+  desc: "I am an experienced JavaScript and Python developer.",
+};
+
+export default { places, aboutMe };
