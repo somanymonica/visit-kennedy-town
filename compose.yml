@@ -1,0 +1,9 @@
+services:
+  kd-nextjs:
+    build:
+      context: ./client
+
+networks:
+  default:
+    name: proxy-network
+    external: true
