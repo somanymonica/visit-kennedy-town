@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navbar_links}>
         <div className={styles.navbar_links_logo}>
-          <Image src={`/kennedytown/${images.logo}`} alt="logo" />
+          <Image src={images.logo} alt="logo" />
         </div>
         <div className={styles.navbar_links_container}>
           <p>
@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link href="/#restaurants">Restaurants</Link>
           </p>
           <p>
-            <Link href="/kennedytown/about">About Me</Link>
+            <Link href="/about">About Me</Link>
           </p>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <Link href="#Restaurants">Restaurants</Link>
               </p>
               <p>
-                <Link href="/kennedytown/about">About Me</Link>
+                <Link href="/about">About Me</Link>
               </p>
             </div>
             <div className={styles.navbar_menu_container_links_login}>
