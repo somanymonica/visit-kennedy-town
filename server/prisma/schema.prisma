@@ -28,6 +28,7 @@ model Restaurant {
   title     String   @db.VarChar(255)
   recommand Int      @default(0)
   image     String   @db.VarChar(255)
+  image_public_id     String   @db.VarChar(255)
   author    User     @relation(fields: [authorId], references: [id])
   authorId  Int
 }
