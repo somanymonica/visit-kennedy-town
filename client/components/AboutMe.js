@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { data } from "../../constants";
+import { data } from "../constants";
 import styles from "./AboutMe.module.css";
 
 const AboutMe = () => (

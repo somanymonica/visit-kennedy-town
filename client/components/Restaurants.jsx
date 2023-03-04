@@ -6,7 +6,7 @@ import {
 } from "react-icons/bs";
 import Image from "next/image";
 
-import { images } from "../../constants";
+import { images } from "../constants";
 import styles from "./Restaurants.module.css";
 
 const Restaurants = () => {
