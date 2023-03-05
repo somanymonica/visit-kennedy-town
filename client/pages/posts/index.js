@@ -11,7 +11,7 @@ const fetcher = async (url) => {
 
 const PostsPage = () => {
   const { data, isLoading, error } = useSWR("/api/posts", fetcher);
-  console.log("posts: ", data);
+
   if (error) return <div>{error.message}</div>;
   if (isLoading) return <div>Loading...</div>;
   if (!data) return null;
