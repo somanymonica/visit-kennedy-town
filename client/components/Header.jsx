@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import images from "../constants/images";
 import styles from "./Header.module.css";
@@ -16,13 +17,7 @@ const Header = () => (
         <br /> I love Kennedy Town and hope you do too.
       </p>
       <button className="custom_button">
-        <a
-          href="https://www.google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Explore More
-        </a>
+        <Link href="/posts">Explore More</Link>
       </button>
     </div>
   </div>
