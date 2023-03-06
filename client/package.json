@@ -22,7 +22,7 @@
     "dev": "next dev",
     "start:dev": "NODE_ENV='development' node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV='production' node server.js"
   },
   "eslintConfig": {
     "extends": [

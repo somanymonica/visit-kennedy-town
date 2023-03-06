@@ -6,7 +6,7 @@ import Head from "next/head";
 import { BsArrowLeftShort } from "react-icons/bs";
 
 import { Date } from "../../components";
-import postPageStyles from "../../styles/PostPage.module.css";
+import postPageStyles from "../../styles/postPage.module.css";
 
 const fetcher = async (url) => {
   const res = await fetch(url);

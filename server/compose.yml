@@ -1,0 +1,37 @@
+services:
+  kd-backend:
+    build:
+      context: .
+    environment:
+      DATABASE_DB: kd
+      DATABASE_PASSWORD:
+      DATABASE_USER:
+      DATABASE_HOST: kd-db
+      NODE_ENV: production
+    networks:
+      - kd-backnet
+      - kd-publicnet
+    depends_on:
+      - kd-db
+    ports:
+      - "3080:3080"
+  kd-db:
+    image: postgres
+    restart: unless-stopped
+    volumes:
+      - kd-pg-data:/var/lib/postgresql/data
+    networks:
+      - kd-backnet
+    environment:
+      POSTGRES_DB: kd
+      POSTGRES_USER:
+      POSTGRES_PASSWORD:
+
+networks:
+  kd-backnet:
+  kd-publicnet:
+    name: proxy-network
+    external: true
+
+volumes:
+  kd-pg-data:

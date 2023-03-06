@@ -1,7 +1,7 @@
 services:
-  kd-nextjs:
+  kd-frontend:
     build:
-      context: ./client
+      context: .
 
 networks:
   default:

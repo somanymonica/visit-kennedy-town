@@ -12,11 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // register the routes
-app.use("/api", routes);
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../my-app/out/index.html"));
-});
+app.use("/", routes);
 
 app.listen(port, () => {
   console.log(`Server listening on the port::${port}`);
