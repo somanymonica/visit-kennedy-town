@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="gradient__bg">
+    <div className="gradient__bg main-container">
       <Head>
         <title>Visit Kennedy Town</title>
       </Head>

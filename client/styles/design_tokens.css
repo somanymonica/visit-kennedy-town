@@ -5,10 +5,26 @@
     --font-family: 'Manrope', sans-serif;
 
     --section-bg: #c7cce1;
+
+    --color-bg: #e8eff7;
     --color-footer: #B6BCC6;
     --color-normal: #40739e;
     --color-text: #2F426C;
     --color-subtext: #b1b7c3;
     --color-white: #f5f6fa;
 
+    --color-button: #c5d7eb;
+    --color-button-pressed: #c2d3e9;
+    --color-button-shadow: #9bb1cb;
+
+
+    box-sizing: border-box;
+    font-size: calc(1vm + 0.6em);
+    line-height: 1.4;
+}
+
+@media (min-width: 64em) {
+    :root {
+        font-size: 1.25em;
+    }
 }

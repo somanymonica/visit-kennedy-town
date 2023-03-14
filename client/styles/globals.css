@@ -1,12 +1,12 @@
 * {
-    box-sizing: border-box;
+    box-sizing: inherit;
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 body {
-    background: var(--color-bg);
+    background-color: var(--color-bg);
 }
 
 a {
@@ -21,6 +21,11 @@ a {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #CFDEF3, #E0EAFC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section__container {
@@ -71,36 +76,6 @@ a {
 
     margin-top: 1rem;
 }
-
-.scale-up-center {
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-@-webkit-keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
 
 .custom_button {
     width: 100%;
