@@ -78,9 +78,6 @@
           display: flex;
 
           p {
-            // background-color: #ccc;
-            // border-radius: 5px;
-            // padding: 0.2em 0.5em;
             @include fashion-button;
           }
         }

@@ -1,0 +1,24 @@
+.header {
+  min-height: 100vh;
+  background-image: url("../public/kd.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 22em 0 0;
+
+  h1 {
+    width: 100%;
+    justify-content: center;
+    margin: auto 0;
+    padding: 1em 0;
+    font-size: 3rem;
+    text-align: center;
+    mix-blend-mode: hard-light;
+
+    background-color: #475e71;
+    color: #948e8e;
+    border: 0.1em solid #d7d6d6;
+    border-width: 0.1em 0;
+  }
+}
