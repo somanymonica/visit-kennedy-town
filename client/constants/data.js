@@ -26,7 +26,7 @@ const places = [
 const aboutMe = {
   avatar: images.avatar,
   name: "Monica",
-  desc: "I am an experienced JavaScript and Python developer.",
+  desc: "I am Monica, an experienced Python-based backend developer.</br>This website is used to continully develop and show up my fontend skills.",
 };
 
 export default { places, aboutMe };

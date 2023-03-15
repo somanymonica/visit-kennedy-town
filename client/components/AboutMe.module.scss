@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  padding: 2em auto;
+
+  img {
+    border-radius: 50%;
+    margin-bottom: 4em;
+
+    transition: transform 0.2s ease-out;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.3);
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: var(--color-normal);
+  }
+
+  .desc {
+    padding: 2em;
+    font-size: 1.1rem;
+    color: var(--color-text);
+  }
+}

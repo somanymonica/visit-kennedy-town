@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { data } from "../constants";
-import styles from "./AboutMe.module.css";
+import styles from "./AboutMe.module.scss";
 
 const AboutMe = () => (
   <div className={styles.about}>
@@ -12,8 +12,11 @@ const AboutMe = () => (
       width={200}
       alt="avatar"
     />
-    <h1 className="header_h1">{data.aboutMe["name"]}</h1>
-    <p className="header_p">{data.aboutMe.desc}</p>
+    <h1>{data.aboutMe["name"]}</h1>
+    <div
+      className={styles.desc}
+      dangerouslySetInnerHTML={{ __html: data.aboutMe.desc }}
+    />
   </div>
 );
 
