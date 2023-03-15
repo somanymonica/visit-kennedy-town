@@ -32,7 +32,6 @@
 .header {
     flex: 2;
 
-    font-family: var(--font-family);
     color: var(--color-normal);
     font-size: 26px;
     font-weight: 700;

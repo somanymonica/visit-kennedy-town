@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--font-family);
     background-color: var(--color-footer);
     opacity: 0.5;
     padding: 0.5em 0;
