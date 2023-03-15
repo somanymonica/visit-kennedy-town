@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
 :root {
-    --font-family: 'Manrope', sans-serif;
-
     --section-bg: #c7cce1;
 
     --color-bg: #e8eff7;
@@ -21,6 +19,7 @@
     box-sizing: border-box;
     font-size: calc(1vm + 0.6em);
     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 64em) {
