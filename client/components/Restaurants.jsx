@@ -1,13 +1,9 @@
 import React from "react";
-import {
-  BsInstagram,
-  BsArrowLeftShort,
-  BsArrowRightShort,
-} from "react-icons/bs";
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import Image from "next/image";
 
 import { images } from "../constants";
-import styles from "./Restaurants.module.css";
+import styles from "./Restaurants.module.scss";
 
 const Restaurants = () => {
   const scrollRef = React.useRef(null);
@@ -23,21 +19,21 @@ const Restaurants = () => {
   };
 
   return (
-    <div className="section__container" id="restaurants">
+    <div className={styles.restaurants} id="restaurants">
       <div className={styles.restaurants_info}>
-        <h1 className="header_h1">somewhere I think you should go</h1>
-        <p className="header_p">
+        <h1>Restaurant Recommendation</h1>
+        <p>
           There are many delicious restaurants here, mostly western restaurants.
           <br />
           These are all good things for me.
         </p>
-        <button className="custom_button">
+        <button>
           <a
             href="https://www.google.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Explore More
+            Show All Restaurants
           </a>
         </button>
       </div>
@@ -49,7 +45,11 @@ const Restaurants = () => {
               key={`restaurant_image-${index + 1}`}
             >
               <Image src={image} alt="restaurant_image" />
-              <BsInstagram className={styles.restaurants_image_icon} />
+              <div className={styles.card_info}>
+                <h3>Name</h3>
+                <p>delicious</p>
+                <small>(Back card feature is coming.)</small>
+              </div>
             </div>
           ))}
         </div>
